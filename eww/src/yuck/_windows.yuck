@@ -3,15 +3,16 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-(defwindow dashboard
+(defwindow power
     :monitor 0
-    :geometry (geometry :x "0"
-                        :y "0"
+    :geometry (geometry
+                        :width "20px"
+                        :height "10px"
                         :anchor "center")
     :stacking "fg"
     :windowtype "dock"
     :wm-ignore true
-(dashboard))
+(power))
 
 ;; Calendar Windows ;;
 (defwindow calendar

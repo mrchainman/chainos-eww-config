@@ -2,10 +2,16 @@
 	all: unset;
 }
 
-.dashboard{
-	padding: 50rem;
+.power{
+	padding: 10px;
+        background-color: $background;
+        color: $blue;
+        font-family: "Font Awesome 6 Free";
+        font-size: 5em;
+        border-radius: 8px;
+        border: 2px solid $blue;
 }
 
 button:hover{
-	color: $mauve;
+	color: $blue2;
 }
